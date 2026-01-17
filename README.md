@@ -1,6 +1,5 @@
 # SistemaChamados
 
-
 End Points da api
 /login
 /login/auth
@@ -12,7 +11,6 @@ End Points da api
 /v1/me/newChamado
 /v1/me/deleteChamado
 /v1/me/updateChamado
-
 
 /users
 /updateCargo

@@ -1,6 +1,6 @@
 package com.pedroch_dev.sistema_chamados.model;
 
-public class user {
+public class User {
 
     int id;
     String nome;
@@ -8,11 +8,10 @@ public class user {
     String senha;
     String cargo;
 
-    public user() {
+    public User() {
     }
 
-    public user(int id, String nome, String email, String senha, String cargo) {
-        this.id = id;
+    public User(String nome, String email, String senha, String cargo) {
         this.nome = nome;
         this.email = email;
         this.senha = senha;
